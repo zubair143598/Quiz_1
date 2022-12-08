@@ -1,12 +1,12 @@
 import React from 'react'
 
 const Hero = () => {
-  const Quiz=
-  [
-    {
-      question:""
-    }
-  ]
+  // const Quiz=
+  // [
+  //   {
+  //     question:""
+  //   }
+  // ]
   return (
     <div className="hero-section">
       <div className="container">

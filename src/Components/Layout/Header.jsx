@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <nav className="navbar header  sticky-top navbar-expand-lg bg-light">
     <div className="container">
-      <a className=" nav-link active" aria-current="page" href="#">
+      <Link className=" nav-link active" aria-current="page" to="#">
         <img src="./Assists/headerLogo.png  " alt="" className="logo p-1 rounded  border" />
-      </a>
+      </Link>
 
       <button
         className=" color navbar-toggler"
@@ -38,19 +38,19 @@ const Header = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link fs-5 clr" href="#">
+            <Link className="nav-link fs-5 clr" to="Swap">
             Roadmap
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link fs-5 clr" href="#">
+            <Link className="nav-link fs-5 clr" to="Swap">
               FAQs
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link fs-5 clr" href="#">
+            <Link className="nav-link fs-5 clr" to="Swap">
             Audit Report
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
