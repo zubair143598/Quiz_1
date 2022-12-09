@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar header  sticky-top navbar-expand-lg bg-light">
+    <nav className="navbar header  sticky-top navbar-expand-lg bg-black ">
     <div className="container">
       <Link className=" nav-link active" aria-current="page" to="#">
         <img src="./Assists/headerLogo.png  " alt="" className="logo p-1 rounded  border" />
